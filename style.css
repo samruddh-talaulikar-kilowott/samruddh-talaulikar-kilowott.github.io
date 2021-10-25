@@ -1,7 +1,31 @@
 body {
-    background-color: lightblue;
-  }
-  h1 {
-    color: black;
-    margin-left: 20px;
-  }
+  background-color: lightblue;
+}
+
+h1 {
+color: black;
+margin-left: 10px;
+}
+h2 {
+color: black;
+margin-left: 10px;
+}
+h3 {
+color: black;
+margin-left: 10px;
+}
+
+img {
+border: 3px solid #DC143C ;
+}
+
+.blink{
+  animation: blink 0.7s infinite;
+  color: green;
+}
+@keyframes blink{
+  0%{ color: #000;}
+  49%{ color: #000;}
+  60%{ color: transparent;}
+  99%{ color: transparent;}
+  100% { color: #000;}
