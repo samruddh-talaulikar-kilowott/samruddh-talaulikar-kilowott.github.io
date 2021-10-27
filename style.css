@@ -16,17 +16,17 @@ body {
 
 .wrapper .sidebar {
   position: fixed;
-  height: 82%;
-  width: 200px;
+  height: 100%;
+  width: 225px;
   background-color: white;
-  padding: 50px 50px;
+  padding: 100px 40px;
   border-right-style: solid;
   border-color:#ef5d57 ;
 }
 
 .wrapper .main-content {
   width: 100%;
-  margin: 100px 300px 143px ;
+  margin: 100px 300px 114px ;
 }
 
 .main-content img {
@@ -40,18 +40,21 @@ nav {
 }
 
 footer {
-  padding: 10px 36px;
-  background-color:#ef5d57;
-  color: white;
+    position: fixed;
+    bottom:0;
+    height: 40px;
+    width: 100%;
+    background: #ef5d57;
+  
 }
 
 .navbar-nav {
-  padding-left: 60px;
+  padding-left: 80px;
 }
 
 .wrapper .main-content-links {
   width: 100%;
-  margin: 100px 300px 314px ;
+  margin: 100px 300px 285px ;
 }
 
 .ulist {
@@ -64,5 +67,5 @@ button {
 
 .wrapper .main-content-tutlinks {
   width: 100%;
-  margin: 100px 300px 355px ; 
+  margin: 100px 300px 326px ; 
 }
