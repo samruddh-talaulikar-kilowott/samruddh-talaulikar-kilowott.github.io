@@ -1,31 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
-  background-color: lightblue;
+  background-color: lightgray;
+  overflow: hidden;
 }
 
-h1 {
-color: black;
-margin-left: 10px;
-}
-h2 {
-color: black;
-margin-left: 10px;
-}
-h3 {
-color: black;
-margin-left: 10px;
+.wrapper {
+  display: flex;
+  position: relative;
 }
 
-img {
-border: 3px solid #DC143C ;
+.wrapper .sidebar {
+  position: fixed;
+  height: 100%;
+  width: 225px;
+  background-color: white;
+  padding: 100px 40px;
+  border-right-style: solid;
+  border-color:#ef5d57 ;
 }
 
-.blink{
-  animation: blink 0.7s infinite;
-  color: green;
+.wrapper .main-content {
+  width: 100%;
+  margin: 100px 300px 114px ;
 }
-@keyframes blink{
-  0%{ color: #000;}
-  49%{ color: #000;}
-  60%{ color: transparent;}
-  99%{ color: transparent;}
-  100% { color: #000;}
+
+.main-content img {
+  height: 300px;
+  width: 300px;
+  border: 3px solid;
+  border-color:#ef5d57 ;
+}
+nav {
+  background-color:#ef5d57;
+}
+
+footer {
+    position: fixed;
+    bottom:0;
+    height: 40px;
+    width: 100%;
+    background: #ef5d57;
+  
+}
+
+.navbar-nav {
+  padding-left: 80px;
+}
+
+.wrapper .main-content-links {
+  width: 100%;
+  margin: 100px 300px 285px ;
+}
+
+.ulist {
+  padding-left: 50px;
+}
+
+button {
+  margin-right: 10px;
+}
+
+.wrapper .main-content-tutlinks {
+  width: 100%;
+  margin: 100px 300px 326px ; 
+}
