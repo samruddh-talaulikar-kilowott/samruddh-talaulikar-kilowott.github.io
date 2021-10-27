@@ -16,7 +16,7 @@ body {
 
 .wrapper .sidebar {
   position: fixed;
-  height: 80%;
+  height: 82%;
   width: 200px;
   background-color: white;
   padding: 50px 50px;
@@ -26,7 +26,7 @@ body {
 
 .wrapper .main-content {
   width: 100%;
-  margin: 100px 300px 249px ;
+  margin: 100px 300px 143px ;
 }
 
 .main-content img {
@@ -51,7 +51,7 @@ footer {
 
 .wrapper .main-content-links {
   width: 100%;
-  margin: 100px 300px 299px ;
+  margin: 100px 300px 314px ;
 }
 
 .ulist {
@@ -64,5 +64,5 @@ button {
 
 .wrapper .main-content-tutlinks {
   width: 100%;
-  margin: 100px 300px 340px ; 
+  margin: 100px 300px 355px ; 
 }
